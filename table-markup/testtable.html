@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-#table-3 th, #table-3 td {
-    border: 1px solid gray;
-}
-
+        table,
+        td,
+        th {
+            border: 1px solid gray;
+        }
     </style>
 </head>
 
@@ -54,6 +55,24 @@
             <td>Unsaturated Fat (g)</td>
         </tr>
     </table>
+    <table>
+        <tr>
+            <th rowspan="3">Serving Size</th>
+            <td>Small (8oz.)</td>
+        </tr>
+        <tr>
+            <td>Medium (16oz.)</td>
+        </tr>
+        <tr>
+            <td>Large (24oz.)</td>
+        </tr>
+    </table>
+    <tr>
+        <th scope="row">Mars</th>
+        <td>.95</td>
+        <td>.62</td>
+        <td>0</td>
+    </tr>
 </body>
 
 </html>
