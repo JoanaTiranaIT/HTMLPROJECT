@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Mailing List Signup</h1>
+    <form action="/mailinglist.php" method="POST">
+        <fieldset>
+            <legend>Join our email list</legend>
+            <p>Get news about the band such as tour dates and special MP3
+                releases sent to your own in-box.</p>
+            <ol>
+                <li><label for="firstlast">Name:</label>
+                    <input type="text" name="fullname" id="firstlast">
+                </li>
+                <li><label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                </li>
+            </ol>
+            <input type="submit" value="Submit">
+        </fieldset>
+        <fieldset>
+            <textarea name="Comment" id="" cols="30" rows="10">Leave us a comment</textarea>
+        </fieldset>
+    </form>
+    <form action="">
+        <li>
+            <label>Favorite color: <input type="text" name="favcolor" value="Red" maxlength="50"></label>
+        </li>
+        <p>
+            <label>Official contst entry: <br></label>
+            <em>Tell us why you love the band. Five winners will get backstage
+                passes!</em><br>
+            <textarea name="contest_entry" cols="50" rows="5">The brand is totally awesome!</textarea></label>
+        </p>
+
+        <p>Official contest entry:<br>
+            <em>Tell us why you love the band. Five winners will get backstage
+                passes!</em><br>
+            <textarea name="contest_entry" placeholder="50 words or less" rows="5" cols="50"></textarea>
+        </p>
+        <li><label for="form-pswd">Password:</label><br>
+            <input type="password" name="pswd" maxlength="12" id="form-pswd">
+        </li>
+    </form>
+    <p>Education completed: <input type="text" list="edulevel" name="education">
+        <datalist id="edulevel">
+            <option value="High School">
+            <option value="Bachelors Degree">
+            <option value="Masters Degree">
+            <option value="PhD">
+        </datalist>
+    </p>
+    <p><input type="submit"> <input type="reset" value="Start over"></p>
+    <p>How old are you?</p>
+    <ol>
+        <li><input type="radio" name="age" value="under24" checked> under
+            24</li>
+        <li><input type="radio" name="age" value="25-34"> 25 to 34</li>
+        <li><input type="radio" name="age" value="35-44"> 35 to 44</li>
+        <li><input type="radio" name="age" value="over45"> 45+</li>
+    </ol>
+    <p>What type of music do you listen to?</p>
+    <ul>
+        <li><input type="checkbox" name="genre" value="punk" checked> Punk
+            rock</li>
+        <li><input type="checkbox" name="genre" value="indie" checked> Indie
+            rock</li>
+        <li><input type="checkbox" name="genre" value="hiphop"> Hip Hop</li>
+        <li><input type="checkbox" name="genre" value="rockabilly">
+            Rockabilly</li>
+    </ul>
+    <p>What is your favorite 80s band?
+        <select name="EightiesFave">
+            <option>The Cure</option>
+            <option>Cocteau Twins</option>
+            <option>Tears for Fears</option>
+            <option>Thompson Twins</option>
+            <option value="EBTG">Everything But the Girl</option>
+            <option>Depeche Mode</option>
+            <option>The Smiths</option>
+            <option>New Order</option>
+        </select>
+    </p>
+    <p>What 80s bands did you listen to?
+        <select name="EightiesBands" size="6" multiple>
+            <option>The Cure</option>
+            <option>Cocteau Twins</option>
+            <option selected>Tears for Fears</option>
+            <option selected>Thompson Twins</option>
+            <option value="EBTG">Everything But the Girl</option>
+            <option>Depeche Mode</option>
+            <option>The Smiths</option>
+            <option>New Order</option>
+        </select>
+    </p>
+    <select name="icecream" size="7" multiple>
+        <optgroup label="traditional">
+            <option>vanilla</option>
+            <option>chocolate</option>
+        </optgroup>
+        <optgroup label="fancy">
+            <option>Super praline</option>
+            <option>Nut surprise</option>
+            <option>Candy corn</option>
+        </optgroup>
+    </select>
+    <form action="/client.php" method="POST" enctype="multipart/form-data">
+        <label>Send a photo to be used as your online icon <em>(optional)
+            </em><br>
+            <input type="file" name="photo"></label>
+    </form>
+    <input type="hidden" name="success-link" value="http://www.example.com/
+thankyou.html">
+    <input type="date" name="name" value="2017-01-14">
+    <input type="time" name="name" value="03:13:00">
+    <input type="datetime-local" name="name" value="2017-01-14T03:13:00">
+    <input type="month" name="name" value="2017-01">
+    <input type="week" name="name" value="2017-W2">
+    <label>Number of guests <input type="number" name="guests" min="1" max="6"></label>
+    <label>Satisfaction (0 to 10) <input type="range" name="satisfaction" min="0" max="10" step="1"></label>
+    <label>Your favorite color: <input type="color" name="favorite">
+    </label>
+    <meter min="0" max="100" name="volume">60%</meter>
+    Percent downloaded: <progress max="100" id="fave">0</progress>
+    <form onsubmit="return false" oninput="o.value = a.valueAsNumber +
+b.valueAsNumber">
+<input name=a type=number step=any>
++ <input name=b type=number step=any> =
+<output name=o for="a b"></output>
+</form>
+</body>
+
+</html>

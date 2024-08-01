@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--IFrame-->
+    <h1>An Inline Frame</h1>
+<iframe src="../glossary.html" width="400" height="250" >
+Read the <a href="../glossary.html">glossary</a>.
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kUMe1FH4CHE?si=4jue8HFmyc-Q0vyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<object type="video/quicktime" data="movies/hekboy.mov" width="320"
+height="256">
+<param name="autostart" value="false">
+<param name="controller" value="true">
+</object>
+<video src="highlight_reel.mp4" width="640" height="480"
+poster="highlight_still.jpg" controls autoplay>
+Your browser does not support HTML5 video. Get the <a
+href="highlight_reel.mp4">MP4 video</a>
+</video>
+<video id="video" controls poster="img/poster.jpg">
+    <source src="clip.webm" type="video/webm">
+    <source src="clip.mp4" type="video/mp4">
+    <source src="clip.ogg" type="video/ogg">
+    <a href="clip.mp4">Download the MP4 of the clip.</a>
+    </video>;
+    <p>Play "Percussion Gun" by White Rabbits</p>
+<audio id="whiterabbits" controls preload="auto">
+<source src="percussiongun.mp3" type="audio/mp3">
+<source src="percussiongun.ogg" type="audio/ogg">
+<source src="percussiongun.webm" type="audio/webm">
+<p>Download "Percussion Gun":</p>
+<ul>
+<li><a href="percussiongun.mp3">MP3</a></li>
+<li><a href="percussiongun.ogg">Ogg Vorbis</a></li>
+</ul>
+</audio>
+<video width="640" height="320" controls>
+    <source src="windtunnel.mp4" type="video/mp4">
+    <source src="windtunnel.mp4" type="video/webm">
+    <track src="english_subtitles.vtt"
+    kind="subtitles"
+    srclang="en"
+    label="English subtitles"
+    default>
+    <track src="french.vtt"
+    kind="subtitles"
+    srclang="fr"
+    label="Sous-titres en français">
+    </video>
+    <canvas width="600" height="400" id="my_first_canvas">
+        Your browser does not support HTML5 canvas. Try using Chrome, Firefox,
+        Safari or MS Edge.
+        </canvas>
+</body>
+</html>

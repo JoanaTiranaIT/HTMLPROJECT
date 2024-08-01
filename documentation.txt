@@ -1,0 +1,64 @@
+<a>:    The Anchor element-Përmbajtja brenda çdo <a> me atributin href, duhet të tregojë destinacionin e lidhjes pra nje URL.
+            <a href="https://example.com">Website</a>
+
+<abbr>    përfaqëson një shkurtesë ose akronim.
+            <p> You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your <abbr>HTML</abbr> (HyperText Markup Language).</p>
+
+<acronym>   përfaqëson një akronim. 
+                <p>The <acronym title="World Wide Web">WWW</acronym> is only a component of theInternet.</p> - vendos disa pika poshte si nenvijezim te WWW
+
+<address>   tregon se përmbajtja e përfshirë ofron informacion kontaktues për një person ose për një organizatë.
+                <address>
+                John Doe<br>
+                123 Main Street<br>
+                 Anytown, USA<br>
+                <a href="mailto:johndoe@example.com">johndoe@example.com</a>
+                 </address>
+
+<area>      përcakton një zonë brenda një harte imazhi që ka zona të paracaktuara për të cilat mund të klikoni.
+<img src="map.jpg" usemap="#image-map" alt="A map"
+<map name="image-map">
+  <area shape="rect" coords="34,44,270,350" href="https://example.com" alt="Example">
+  <area shape="circle" coords="130,136,60" href="https://anotherexample.com" alt="Another Example">
+</map>
+
+<article>      përfaqëson një përbërje të pavarur në një dokument, faqe, aplikacion, ose sit, që është e destinuar të shpërndahet ose përdoret përsëri 
+               në mënyrë të pavarur (për shembull, në sindikim). 
+
+<aside>        përfaqëson një pjesë të dokumentit ku përmbajtja është vetëm në mënyrë të tërthortë e lidhur me përmbajtjen kryesore të dokumentit. 
+            Asidet shpesh paraqiten si shiritë anësorë ose kuti për thirrje.
+
+<audio>         përdoret për të integruar përmbajtje audio në dokumente.
+
+<b>        përdoret për të tërhequr vëmendjen e lexuesit--bold
+
+<base>      specifikon URL-në bazë që do të përdoret për të gjitha URL-të relative në një dokument. Mund të ketë vetëm një element <base> në një dokument.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
